@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>HOLA</pattern>
+	    <template>Bienvenid@. ¿quieres sabes cuales son las entradas o vamos por la sopa?</template>
+	</category>
+	<category>
+	    <pattern>ENTRADAS</pattern>
+	    <template>tenemos palitos de apio, ensalada o frutas picadas</template>
+	</category>
+	<category>
+	    <pattern>*ENTRADAS</pattern>
+	        <srai>ENTRADAS</srai>
+	</category>
+	<category>
+	    <pattern>SOPA</pattern>
+            <template>¿quieres sopa del dia o consome?</template>	    
+	</category>
+</aiml>
